@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: launches_cost
+    description: "Uma breve análise de custo de lançamento de foguetes"

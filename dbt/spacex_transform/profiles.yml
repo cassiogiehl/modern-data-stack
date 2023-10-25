@@ -1,0 +1,14 @@
+spacex_transform:
+
+  target: dev
+
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: dw_user
+      password: dw_pass
+      port: 5432
+      dbname: data_warehouse
+      schema: public
+      threads: 4

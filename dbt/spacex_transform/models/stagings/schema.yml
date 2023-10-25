@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_launches
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_rockets
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null

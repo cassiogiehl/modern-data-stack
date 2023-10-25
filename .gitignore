@@ -1,0 +1,25 @@
+.DS_Store
+*env/
+source/*
+
+# Airflow
+airflow/dags/__pycache__/
+config/
+logs/
+plugins/
+psql_airflow/
+
+# Minio
+data1*/
+
+# trino
+trino_scripts.txt
+
+# hive
+mysql/
+
+# Airbyte
+airbyte/
+
+# Postgres
+data_warehouse
