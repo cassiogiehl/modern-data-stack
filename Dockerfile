@@ -15,6 +15,6 @@ RUN pip install --no-cache-dir wheel \
     && pip install --no-cache-dir dbt-core \
     && pip install --no-cache-dir dbt-trino \
     && pip install --no-cache-dir dbt-postgres \
-    # && pip install --no-cache-dir astronomer-cosmos \
-    # && pip install --no-cache-dir astronomer-cosmos[dbt.postgres] \
+    && pip install --no-cache-dir astronomer-cosmos \
+    && pip install --no-cache-dir astronomer-cosmos[dbt.postgres] \
     && pip install --no-cache-dir nes-py
