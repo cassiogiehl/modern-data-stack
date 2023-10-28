@@ -1,6 +1,11 @@
 /*
     Análise de custo de lançamento de foguetes da space x
 */
+{{
+    config(
+        materialized='table'
+    )
+}}
 
 select 
     l.id, 
